@@ -1,24 +1,38 @@
+{% load static %}
 <html>
     <head>
-        <title>Shubham blog</title>
+        <title>Django Girls blog</title>
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="{% static 'css/blog.css' %}">
+        <link href="//fonts.googleapis.com/css?family=Lobster&subset=latin,latin-ext" rel="stylesheet" type="text/css">
     </head>
     <body>
-        <div>
-            <h1><a href="/">Shubham Blog</a></h1>
+        <div class="page-header">
+            <h1><a href="/">Shubham Blogs</a></h1>
         </div>
+<div class="content container">
+    <div class="row">
+        <div class="col-md-8">
+        {% for post in posts %}
+        <div class="post">
+            <div class="date">
+                <br></br>
+        <h2><a href="">{{ post.title }}</a></h2>
+                <p>published: {{ post.published_date }}</p>
+        <p>{{ post.text|linebreaksbr }}</p>
+    </div>
+{% endfor %}
 
         <div>
-            <p>published: 14.06.2014, 12:14</p>
-            <h2><a href="">How My "Stupid" Career Decision Led Me to My Dream Job</a></h2>
-            <p>  Nine years ago, I made a stupid decision. I left a great job at an extraordinary company, Capital One. But, I’d been there for a decade and felt worn out at the ripe old age of 35.
-
-                With responsibilities, a family at home, and plenty of stock options waiting to vest, I should have asked for a six-month
-                sabbatical, but instead I resigned.
-
-                What would I do during that time? I would take a step back from the daily grind to figure out what I should
-                do next and how could I make my career meaningful again. Rather than sitting in a cubicle hoping the answer
-                would come to me in between answering emails and meetings, I would get away from it all and listen to the
-                Universe.  </p>
+            <p>published: 15.06.2014, 12:14</p>
+            <h2><a href="">My Fitness post</a></h2>
+            <p>You have to observe symptoms first. You might have been exposed to the virus,
+                but it could also be something else like a common cold or other non-coronavirus
+                related issue. Therefore, you have to observe your signs before you make a decision to
+                see a doctor. You need to describe any and all symptoms in detail when you discuss your condition
+                with a doctor. Regularly monitor your temperature too. If you’re a potential
+                coronavirus patient, you will get a referral for a test.</p>
         </div>
     </body>
 </html>

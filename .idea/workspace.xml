@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c4fb4dec-8a29-4b30-88de-00c2c3a99550" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myblog/myblog" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myblog/templates/blog/post_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myblog/static/css/blog.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myblog/templates/blog/post_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/myblog/templates/blog/post_list.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myblog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/myblog/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,13 +27,12 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../projects" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Documents/shubham_backup/test2" />
   </component>
   <component name="RunManager">
     <configuration name="manage" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -50,7 +48,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/manage.py" />
-      <option name="PARAMETERS" value="" />
+      <option name="PARAMETERS" value="runserver" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -78,29 +76,49 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="174" y="54" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586455273647">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="174" y="54" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1299.741@67.27.1299.741" timestamp="1586455273647" />
     <state x="412" y="201" width="599" height="390" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586285673303">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="412" y="201" width="599" height="390" key="#com.intellij.fileTypes.FileTypeChooser/67.27.1299.741@67.27.1299.741" timestamp="1586285673303" />
-    <state x="499" y="154" width="424" height="484" key="FileChooserDialogImpl" timestamp="1586264861384">
+    <state x="499" y="154" width="424" height="484" key="FileChooserDialogImpl" timestamp="1589254012061">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state x="499" y="154" width="424" height="484" key="FileChooserDialogImpl/67.27.1299.741@67.27.1299.741" timestamp="1586264861384" />
-    <state width="1276" height="175" key="GridCell.Tab.0.bottom" timestamp="1586286325187">
+    <state x="499" y="154" width="424" height="484" key="FileChooserDialogImpl/67.27.1299.741@67.27.1299.741" timestamp="1589254012061" />
+    <state width="1276" height="219" key="GridCell.Tab.0.bottom" timestamp="1586455521050">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1276" height="175" key="GridCell.Tab.0.bottom/67.27.1299.741@67.27.1299.741" timestamp="1586286325187" />
-    <state width="1276" height="175" key="GridCell.Tab.0.center" timestamp="1586286325186">
+    <state width="1276" height="219" key="GridCell.Tab.0.bottom/67.27.1299.741@67.27.1299.741" timestamp="1586455521050" />
+    <state width="1276" height="219" key="GridCell.Tab.0.center" timestamp="1586455521050">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1276" height="175" key="GridCell.Tab.0.center/67.27.1299.741@67.27.1299.741" timestamp="1586286325186" />
-    <state width="1276" height="175" key="GridCell.Tab.0.left" timestamp="1586286325185">
+    <state width="1276" height="219" key="GridCell.Tab.0.center/67.27.1299.741@67.27.1299.741" timestamp="1586455521050" />
+    <state width="1276" height="219" key="GridCell.Tab.0.left" timestamp="1586455521049">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1276" height="175" key="GridCell.Tab.0.left/67.27.1299.741@67.27.1299.741" timestamp="1586286325185" />
-    <state width="1276" height="175" key="GridCell.Tab.0.right" timestamp="1586286325186">
+    <state width="1276" height="219" key="GridCell.Tab.0.left/67.27.1299.741@67.27.1299.741" timestamp="1586455521049" />
+    <state width="1276" height="219" key="GridCell.Tab.0.right" timestamp="1586455521050">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1276" height="175" key="GridCell.Tab.0.right/67.27.1299.741@67.27.1299.741" timestamp="1586286325186" />
+    <state width="1276" height="219" key="GridCell.Tab.0.right/67.27.1299.741@67.27.1299.741" timestamp="1586455521050" />
+    <state width="1276" height="219" key="GridCell.Tab.1.bottom" timestamp="1586455521052">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1276" height="219" key="GridCell.Tab.1.bottom/67.27.1299.741@67.27.1299.741" timestamp="1586455521052" />
+    <state width="1276" height="219" key="GridCell.Tab.1.center" timestamp="1586455521051">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1276" height="219" key="GridCell.Tab.1.center/67.27.1299.741@67.27.1299.741" timestamp="1586455521051" />
+    <state width="1276" height="219" key="GridCell.Tab.1.left" timestamp="1586455521051">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1276" height="219" key="GridCell.Tab.1.left/67.27.1299.741@67.27.1299.741" timestamp="1586455521051" />
+    <state width="1276" height="219" key="GridCell.Tab.1.right" timestamp="1586455521051">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1276" height="219" key="GridCell.Tab.1.right/67.27.1299.741@67.27.1299.741" timestamp="1586455521051" />
   </component>
 </project>
