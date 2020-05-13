@@ -1,7 +1,9 @@
+{% extends 'blog/base.html' %}
 {% load static %}
+
 <html>
     <head>
-        <title>Django Girls blog</title>
+        <title>Blogs</title>
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
         <link rel="stylesheet" href="{% static 'css/blog.css' %}">
@@ -14,15 +16,22 @@
 <div class="content container">
     <div class="row">
         <div class="col-md-8">
-        {% for post in posts %}
+
+{% block content %}
+    {% for post in posts %}
         <div class="post">
             <div class="date">
                 <br></br>
-        <h2><a href="">{{ post.title }}</a></h2>
+                 <h2><a href="{% url 'post_detail' pk=post.pk %}">{{ post.title }}</a></h2>
                 <p>published: {{ post.published_date }}</p>
-        <p>{{ post.text|linebreaksbr }}</p>
+               <p>{{ post.text|linebreaksbr }}</p>
+            </div>
+        </div>
+    {% endfor %}
+{% endblock %}
+        </div>
     </div>
-{% endfor %}
+</div>
 
         <div>
             <p>published: 15.06.2014, 12:14</p>

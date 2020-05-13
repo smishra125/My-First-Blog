@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c4fb4dec-8a29-4b30-88de-00c2c3a99550" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/myblog/static/css/blog.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myblog/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myblog/templates/blog/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myblog/templates/blog/post_detail.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myblog/templates/blog/post_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/myblog/templates/blog/post_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myblog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/myblog/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myblog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/myblog/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -120,5 +122,9 @@
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state width="1276" height="219" key="GridCell.Tab.1.right/67.27.1299.741@67.27.1299.741" timestamp="1586455521051" />
+    <state x="379" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1589344193181">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="379" y="89" width="672" height="678" key="search.everywhere.popup/67.27.1299.741@67.27.1299.741" timestamp="1589344193181" />
   </component>
 </project>
